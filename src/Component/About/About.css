@@ -1,0 +1,39 @@
+.about {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.about-left img {
+  width: 60%;
+  border-radius: 5%;
+  height: 60vh;
+  flex: 1;
+}
+
+.about-right {
+  align-items: center;
+  flex: 1;
+  margin-right: 10%;
+}
+
+.about-right h2 {
+  font-family: "Barrio";
+  font-weight: bold;
+  font-size: 2.5em;
+  color: rgb(27, 245, 208);
+  border-bottom: 5px solid rgb(27, 245, 208);
+}
+
+.about-right p {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+@media all and (min-width: 750px) {
+  .about {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,60 @@
+.adopt-cat {
+  margin-top: 20px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cat-info {
+  flex-grow: 2;
+}
+
+.cat-info img {
+  border-radius: 5%;
+  width: 70%;
+  height: 60vh;
+}
+
+.people-info {
+  flex-grow: 1;
+  margin-right: 10%;
+  margin-top: 10%;
+}
+
+.people-info h2 {
+  color: rgb(255, 86, 86);
+  font-weight: bold;
+  font-size: 2em;
+  font-family: "Barrio";
+}
+
+.people-info h3 {
+  color: rgb(27, 245, 208);
+  font-weight: bold;
+  font-size: 1.5em;
+  font-family: "Barrio";
+}
+.adopt-button {
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+  color: black;
+  border-radius: 10%;
+  background-color: rgb(27, 245, 208);
+}
+
+.people-form button {
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+  color: black;
+  border-radius: 10%;
+  background-color: rgb(27, 245, 208);
+}
+
+.people-list ul {
+  list-style-type: none;
+}

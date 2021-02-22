@@ -1,0 +1,41 @@
+.App {
+  position: relative;
+  max-height: 100vh;
+  text-align: center;
+}
+
+.App header {
+  padding: 10px 0 0 0;
+  margin: 0;
+  background-color: rgb(27, 245, 208);
+}
+
+.App header h1 {
+  font-size: 4em;
+  font-weight: bold;
+  letter-spacing: 10px;
+  margin-top: 10px;
+  font-family: "Barrio";
+}
+
+.App header h1 a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 2em;
+  height: 2.5em;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(27, 245, 208);
+}
+
+@media all and (min-width: 750px) {
+  .App {
+    max-width: 600px;
+  }
+}
