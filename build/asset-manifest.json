@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2b5ced42.chunk.css",
+    "main.js": "/static/js/main.c312bf47.chunk.js",
+    "main.js.map": "/static/js/main.c312bf47.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.261cbf5d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.261cbf5d.js.map",
+    "static/js/2.d169785a.chunk.js": "/static/js/2.d169785a.chunk.js",
+    "static/js/2.d169785a.chunk.js.map": "/static/js/2.d169785a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.2b5ced42.chunk.css.map": "/static/css/main.2b5ced42.chunk.css.map",
+    "static/js/2.d169785a.chunk.js.LICENSE.txt": "/static/js/2.d169785a.chunk.js.LICENSE.txt",
+    "static/media/my-ferret.c56399cc.jpg": "/static/media/my-ferret.c56399cc.jpg",
+    "static/media/pet-about.074626e0.jpg": "/static/media/pet-about.074626e0.jpg",
+    "static/media/pet-button-cat.62088e27.jpg": "/static/media/pet-button-cat.62088e27.jpg",
+    "static/media/pet-button-dog.0f15002e.jpg": "/static/media/pet-button-dog.0f15002e.jpg",
+    "static/media/petful-main.372ef115.jpg": "/static/media/petful-main.372ef115.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.261cbf5d.js",
+    "static/js/2.d169785a.chunk.js",
+    "static/css/main.2b5ced42.chunk.css",
+    "static/js/main.c312bf47.chunk.js"
+  ]
+}

@@ -2,7 +2,7 @@ import config from "../config";
 
 const ApiService = {
   getCat() {
-    return fetch(`${config.API_ENDPOINT}/api/cats`, {
+    return fetch(`${config.REACT_APP_API_BASE}/api/cats`, {
       headers: {},
     })
       .then((res) =>
@@ -11,7 +11,7 @@ const ApiService = {
       .catch((err) => console.error(err));
   },
   deleteCat() {
-    return fetch(`${config.API_ENDPOINT}/api/cats`, {
+    return fetch(`${config.REACT_APP_API_BASE}/api/cats`, {
       method: "DELETE",
       headers: {
         "content-type": "application/json",
@@ -23,7 +23,7 @@ const ApiService = {
       .catch((err) => console.error(err));
   },
   getDog() {
-    return fetch(`${config.API_ENDPOINT}/api/dogs`, {
+    return fetch(`${config.REACT_APP_API_BASE}/api/dogs`, {
       headers: {},
     })
       .then((res) =>
@@ -32,7 +32,7 @@ const ApiService = {
       .catch((err) => console.error(err));
   },
   deleteDog() {
-    return fetch(`${config.API_ENDPOINT}/api/dogs`, {
+    return fetch(`${config.REACT_APP_API_BASE}/api/dogs`, {
       method: "DELETE",
       headers: {
         "content-type": "application/json",
@@ -44,7 +44,7 @@ const ApiService = {
       .catch((err) => console.error(err));
   },
   getPeople() {
-    return fetch(`${config.API_ENDPOINT}/api/people`, {
+    return fetch(`${config.REACT_APP_API_BASE}/api/people`, {
       headers: {},
     })
       .then((res) =>
@@ -53,7 +53,7 @@ const ApiService = {
       .catch((err) => console.error(err));
   },
   addPerson(name) {
-    return fetch(`${config.API_ENDPOINT}/api/people`, {
+    return fetch(`${config.REACT_APP_API_BASE}/api/people`, {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -66,7 +66,7 @@ const ApiService = {
       .catch((err) => console.error(err));
   },
   deletePerson() {
-    return fetch(`${config.API_ENDPOINT}/api/people`, {
+    return fetch(`${config.REACT_APP_API_BASE}/api/people`, {
       method: "DELETE",
       headers: {
         "content-type": "application/json",

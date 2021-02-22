@@ -34,8 +34,3 @@ footer {
   background-color: rgb(27, 245, 208);
 }
 
-@media all and (min-width: 750px) {
-  .App {
-    max-width: 600px;
-  }
-}

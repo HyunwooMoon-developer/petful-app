@@ -1,4 +1,4 @@
 /* eslint-disable import/no-anonymous-default-export */
 export default {
-  API_ENDPOINT: "https://moon-petful-api.herokuapp.com",
+    REACT_APP_API_BASE: process.env.REACT_APP_API_BASE || "http://localhost:8000"
 };
