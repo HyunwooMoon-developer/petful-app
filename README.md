@@ -9,6 +9,7 @@ Server Repo : https://github.com/HyunwooMoon-developer/petful-server.git
 
 
 ![Screenshot](./src/Component/Image/screenshot1.png)
+
 ![Screenshot](./src/Component/Image/screenshot2.png)
 
 ## What I Use for App
